@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="nombre">nombre</string>
+    <string name="introduce_un_nombre">Introduce un nombre</string>
+</resources>
