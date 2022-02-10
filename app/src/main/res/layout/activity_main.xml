@@ -27,6 +27,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:textColorHint="@color/white"
+        app:placeholderTextColor="@color/white"
+        app:hintTextColor="@color/white"
         app:boxBackgroundColor="@color/barras"
         app:counterEnabled="true"
         app:counterMaxLength="30"
@@ -46,6 +48,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/introduce_un_nombre"
+            android:textColor="@color/white"
             android:inputType="text"
             android:singleLine="true"
             android:textColorHint="@color/white" />
@@ -57,9 +60,11 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:textColorHint="@color/white"
+        app:placeholderTextColor="@color/white"
         app:boxBackgroundColor="@color/barras"
         app:counterEnabled="true"
         app:counterMaxLength="30"
+        app:hintTextColor="@color/white"
         app:counterTextColor="@color/white"
         app:errorEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -78,7 +83,7 @@
             android:hint="Contraseña"
             android:inputType="text"
             android:singleLine="true"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

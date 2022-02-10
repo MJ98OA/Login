@@ -27,6 +27,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:textColorHint="@color/white"
+        app:placeholderTextColor="@color/white"
+        app:hintTextColor="@color/white"
         app:boxBackgroundColor="@color/barras"
         app:counterEnabled="true"
         app:counterMaxLength="30"
@@ -34,10 +36,10 @@
         app:errorEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.668"
+        app:layout_constraintVertical_bias="0.499"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -57,17 +59,19 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:textColorHint="@color/white"
+        app:placeholderTextColor="@color/white"
         app:boxBackgroundColor="@color/barras"
         app:counterEnabled="true"
         app:counterMaxLength="30"
+        app:hintTextColor="@color/white"
         app:counterTextColor="@color/white"
         app:errorEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.952"
+        app:layout_constraintVertical_bias="0.676"
         tools:ignore="MissingConstraints">
 
         <EditText
